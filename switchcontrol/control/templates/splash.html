@@ -1,0 +1,7 @@
+<ul>
+	<li><a>You're at the splash.</a></li>
+	<li><a>The state of GPIO Pin {{ gpio_pin }} is {% if gpio_state is 1 %}on{% else %}off{% endif %}.</a></li>
+	<li><a href="{% url 'turnoff' %}">turnoff</a></li>
+	<li><a href="{% url 'turnon' %}">turnon</a></li>
+	
+</ul>
