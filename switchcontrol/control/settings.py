@@ -25,8 +25,7 @@ SECRET_KEY = '!prrp1yyvnf+(z+sspo0f#+rqn7qq#isd33-tcakg*hpyai4e='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-import secret
-ALLOWED_HOSTS = secret.ALLOWED_HOSTS
+ALLOWED_HOSTS = ['10.0.1.7', '127.0.0.1', '98.164.67.49']
 
 
 # Application definition
